@@ -1,0 +1,21 @@
+{
+  "name": "photocat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "keywords": [
+    "canvas",
+    "2d",
+    "graphic",
+    "renderer",
+    "engine"
+  ],
+  "dependencies": {
+    "leafer-ui": "1.0.0",
+    "lodash-es": "4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "vite": "^4.3.9"
+  }
+}

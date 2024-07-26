@@ -1,0 +1,107 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "explicit"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "scss",
+        "vue"
+    ],
+    "stylelint.packageManager": "pnpm",
+    "files.exclude": {
+        ".editorconfig": true,
+        "**/bower_components": true,
+        "**/.idea": true,
+        "**/tmp": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.pnpm-debug.log": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.vscode/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true,
+        "**/yarn.lock": true,
+        "**/pnpm-lock.yaml": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/*.log": true,
+        "**/*.log*": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/elehukouben": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.vscode": false,
+        "**/yarn.lock": true,
+        "**/pnpm-lock.yaml": true,
+        "**/tmp": true,
+        "out": true,
+        "dist": true,
+        "node_modules": true,
+        "CHANGELOG.md": true,
+        "screenshots": true,
+        "yarn-error.log": true
+    },
+    "cSpell.words": [
+        "commitlint",
+        "esbuild",
+        "esnext",
+        "nprogress",
+        "pnpm",
+        "stylelint",
+        "unref",
+        "vite",
+        "vitejs",
+        "vitest",
+        "lingtu",
+        "leafer",
+        "photocat"
+    ],
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "$(capture).test.ts, $(capture).test.tsx",
+        "*.tsx": "$(capture).test.ts, $(capture).test.tsx",
+        "package.json": "pnpm-workspace.yaml, pnpm-lock.yaml,.browserslistrc,.npmrc,monorepo.code-workspace,.gitignore,.editorconfig,LICENSE,.gitattributes,vite.config.ts,postcss.config.js,windi.config.ts,tsconfig.json",
+        ".eslintrc.js": ".eslintrc.json,.eslintignore,.prettierignore,prettier.config.js,.prettierrc.js,.stylelintignore,.stylelintrc.json,stylelint.config.js",
+        ".env": ".env.*"
+    },
+    "terminal.integrated.scrollback": 10000,
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "[glsl]": {
+        "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
+    },
+}

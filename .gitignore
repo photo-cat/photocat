@@ -1,0 +1,11 @@
+dist
+node_modules
+
+.DS_Store
+
+.eslintcache
+*.tsbuildinfo
+*.log
+
+docs
+pnpm-lock.yaml

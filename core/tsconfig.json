@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": false,
+        "target": "es5",
+        "lib": ["esnext", "dom"],
+        "noImplicitAny": false,
+        "removeComments": true,
+        "outDir": "dist/esm",
+        "sourceMap": true,
+        "declaration": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

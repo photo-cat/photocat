@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "editor-pull": "git subtree pull --prefix=examples/editor-view https://git.lingtu.tech/aiad-productions/frontend/aiad-editor-view.git dev --squash"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
